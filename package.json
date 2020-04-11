@@ -1,0 +1,17 @@
+{
+  "name": "jsfetch",
+  "version": "1.0.0",
+  "homepage": "https://ustamirazib.github.io/indonesiaDataCorona.github.io",
+  "description": "aplikasi data corona di indonesia",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Ustami Rajib",
+  "license": "ISC"
+}
